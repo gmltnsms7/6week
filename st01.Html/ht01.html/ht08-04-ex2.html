@@ -9,20 +9,48 @@
         label {width: 100px; display: inline-block; vertical-align:top; }
         div {margin:auto; }
         .orderinfo {  width: 250px; }
-        input[type='number'] { width:60px; }		
+        input[type='number'] { width:60px; }
 		ul > li { list-style-type:none; }
     </style>
 </head>
 <body>
 
-	<pre>
-		작업 순서
-		 개인 정보 
-         배송지 정보
-		 주문 정보
-		 주문하기
-		  다시작성 : form 입력 값 초기화
-	</pre>
+
     <h1>상품 주문서</h1>
+    <form action="" method="get">
+<fieldset>
+<legend>개인정보
+</legend>
+<div><label>이름:</label><input type="text" value="" placeholder="이름을 입력하세요"></div>
+<div><label>연락처:</label><input type="text" value="" placeholder="연락처를 입력하세요"></div>
+</fieldset>
+
+<fieldset>
+    <legend>배송지 정보
+    </legend>
+    <div><label>주소:</label><input type="text" value="" required style="width: 400px;" ></div>
+<div><label>전화번호:</label><input type="tel" value="" required></div>
+<div><label>메모:</label><textarea name="" id="" cols="30" rows="10"></textarea></div>
+
+</fieldset>
+<fieldset>
+<legend>주문정보</legend>
+<div>
+    <label style="width: 400px;"><input type="radio" name="" id="" > 과테말라 안티구아 (100g) </label><input type="text" style="width: 70px;"  checked>개
+</div>
+<div>
+    <label style="width: 400px;"><input type="radio" name="" id=""> 인도네시아 만델링 (100g) </label><input type="text" style="width: 70px;">개
+</div>
+<div>
+    <label style="width: 400px;"><input type="radio" name="" id=""> 탐라는도다(블랜딩) (100g) </label><input type="text" style="width: 70px;" >개
+</div>
+
+</fieldset>
+
+<center>
+    <input type="submit" value="주문하기">
+    <input type="reset" value="다시작성">
+</center>
+</form>
 </body>
 </html>
