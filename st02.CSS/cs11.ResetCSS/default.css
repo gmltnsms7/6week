@@ -1,5 +1,5 @@
 /* Reset CSS  */
-* { margin:0; padding:0; border:0; outline:0; vertical-align:top; }
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top; box-sizing: content-box;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
 ul, ol, dl { list-style:none; }
 img, video { max-width:100%; border:0; vertical-align:top; }

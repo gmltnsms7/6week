@@ -5,6 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>박스모델</title>
+
+    <link rel="stylesheet" href="../reset.css">
+    <style>
+
+        div{
+        margin: 20px;
+
+        }
+
+
+       #borderstyle > .box1{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border-color: black;
+        border: 5px;
+        border-style: solid;
+
+       }
+       #borderstyle> .box2{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border-color: black;
+        border: 5px;
+        border-style : dotted;
+       }
+       #borderstyle> .box3{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border-color: black;
+        border: 5px;
+        border-style: dashed;
+       }
+       #borderstyle> .box4, #borderstyle> .box5{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border-color: black;
+        border: 5px;
+        border-top-style: solid;
+        border-bottom-style: dotted;
+        border-left-style: double;
+        border-right-style: dashed;
+       }
+
+       #bordercolor> .box1{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border: 5px;
+        border-style: solid;
+        border-color: red;
+
+       }
+       #bordercolor> .box2, #bordercolor> .box3{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border: 5px;
+        border-style : dotted;
+        border-top-color: red;
+        border-left-color: blue;
+        border-bottom-color: red;
+        border-right-color: blue;
+       }
+       #bordercolor> .box4, #bordercolor> .box5{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border: 5px;
+        border-style: dashed;
+        border-top-color: yellow;
+        border-left-color: blue;
+        border-bottom-color: red;
+        border-right-color: green;
+       }
+       #borderwidth> .box1{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border: 5px;
+        border-style: solid;
+        border-color: red;
+
+       }
+       #borderwidth> .box2, #borderwidth> .box3{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border: 5px;
+        border-style : dotted;
+        border-top-color: red;
+        border-left-color: blue;
+        border-bottom-color: red;
+        border-right-color: blue;
+        border-width: 10px;
+       }
+
+       #borderwidth> .box4, #borderwidth> .box5{
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        border: 5px;
+        border-style: dashed;
+        border-top-color: yellow;
+        border-left-color: blue;
+        border-bottom-color: red;
+        border-right-color: green;
+        border-width: 0px;
+       }
+
+
+    </style>
 </head>
 <body>
     <div id="borderstyle">
@@ -35,4 +160,4 @@
     </div>
 
 </body>
-</html>
+</html>
